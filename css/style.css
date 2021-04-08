@@ -21,8 +21,8 @@ width: 50%;
 .grid-container > section {
 background-color: rgba(255, 215, 255, 0.6);
 text-align: center;
-padding:30px 0;
-font-size:40px;
+padding:40px 0;
+font-size:50px;
 margin-top: 100px;
 }
 .nav {
@@ -35,7 +35,7 @@ top: 0;
 left: 0;
 width: 100%;
 box-shadow: 0 3px 0 rgba(0, 0, 0, 0.9);
-z-index: 10;
+z-index: 20;
 background-color: purple;
 }
 .nav-list {
