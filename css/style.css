@@ -17,7 +17,6 @@ grid-gap: 10px;
 background-color: #2196F3;
 padding: 50px;
 width: 100%;
-
 }
 .grid-container > section {
 background-color: rgba(255, 215, 255, 0.6);
@@ -51,7 +50,6 @@ margin-right: 2rem;
 display: flex;
 margin-right: 1rem;
 }
-
 @media (max-width: 30.0em) {
 .nav {
   justify-content: center;
