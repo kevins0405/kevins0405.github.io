@@ -37,10 +37,11 @@ width: 100%;
 box-shadow: 0 4px 0 rgba(0, 0, 0, 0.9);
 z-index: 10;
 background-color: purple;
+padding: 1rem;
 }
 .nav-list {
 display: flex;
-margin-right: 50rem;
+margin-right: 5rem;
 }
 @media (max-width: 35.0em) {
 .nav {
