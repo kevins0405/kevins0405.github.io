@@ -42,10 +42,6 @@ background-color: purple;
 display: flex;
 margin-right: 4rem;
 }
-.nav-list {
-display: flex;
-margin-right: 2rem;
-}
 @media (max-width: 30.0em) {
 .nav {
   justify-content: center;
