@@ -1,15 +1,14 @@
 .header {
-  
   font-family: Times New Roman;
   font-size: 30px;
   text-align: center;
   background-color: mediumseagreen;
   color: whitesmoke;
-  height: 65vh;
+  height: 70vh;
   align-items: center;
   justify-content: center;
   padding: 40px;
-  width: 150%;
+  width: 100%;
 }
 .grid-container {
 display: grid;
