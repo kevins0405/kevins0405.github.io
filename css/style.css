@@ -39,7 +39,7 @@ z-index: 10;
 background-color: purple;
 padding: 1rem;
 }
-.nav-list {
+.nav {
   margin-right: 5rem;
 }
 @media (max-width: 35.0em) {
