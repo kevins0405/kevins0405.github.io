@@ -35,7 +35,7 @@ top: 0;
 left: 0;
 width: 100%;
 box-shadow: 0 3px 0 rgba(0, 0, 0, 0.9);
-z-index: 20;
+z-index: 30;
 background-color: purple;
 }
 .nav-list {
@@ -52,8 +52,8 @@ margin-right: 4rem;
 }
 .nav-list a {
 color: black;
-font-size: 2rem;
-padding: 2rem;
+font-size: 1.5rem;
+padding: 1.5rem;
 text-decoration: none;
 }
 .nav-list a:hover {
