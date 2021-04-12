@@ -40,7 +40,7 @@ background-color: purple;
 }
 .nav-list {
 display: flex;
-margin-right: 2rem;
+margin-right: 1rem;
 }
 @media (max-width: 35.0em) {
 .nav {
