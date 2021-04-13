@@ -7,7 +7,6 @@
   height: 75vh;
   align-items: center;
   justify-content: center;
-  padding: 50px;
   width: 100%;
 }
 .project-header {
@@ -20,7 +19,6 @@ display: grid;
 grid-template-columns: auto auto auto auto;
 grid-gap: 10px;
 background-color: #2196F3;
-padding: 75px;
 width: 100%;
 }
 .grid-container > section {
