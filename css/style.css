@@ -25,7 +25,8 @@ p {
 }
 .gallery {
   margin: 5px;
-  border: 1px solid red;
+  background-color: slateblue;
+  border: 1px solid #ccc;
   float: left;
   width: 180px;
 }
