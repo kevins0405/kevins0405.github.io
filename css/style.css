@@ -4,7 +4,7 @@ h1 {
 }
 p {
   position: relative;
-  top: auto;
+  top: 50px;
 }
 .header {
   font-family: Times New Roman;
