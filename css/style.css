@@ -17,6 +17,7 @@ p {
   justify-content: center;
   width: 100%;
   position: relative;
+  z-index: 10;
 }
 .project {
   background-color: cadetblue;
