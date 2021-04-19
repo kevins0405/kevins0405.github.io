@@ -15,9 +15,9 @@ p {
   height: 75vh;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 150%;
   position: relative;
-  z-index: 10;
+
 }
 .project {
   background-color: cadetblue;
