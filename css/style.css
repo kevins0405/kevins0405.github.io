@@ -22,10 +22,10 @@ p {
  display: flex;
  text-align: center;
  font-size: 30px;
+ background-color: slategray;
 }
 .gallery {
   margin: 5px;
-  background-color: slateblue;
   border: 1px solid #ccc;
   float: left;
   width: 180px;
