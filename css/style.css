@@ -18,13 +18,13 @@ p {
   width: 100%;
   position: relative;
 }
+.project {
+  background-color: cadetblue;
+}
 .project-header {
  display: flex;
  text-align: center;
  font-size: 30px;
-}
-.background-color {
-  background-color: cadetblue;
 }
 .gallery {
   margin: 5px;
