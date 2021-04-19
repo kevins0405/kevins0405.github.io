@@ -18,11 +18,15 @@ p {
   width: 100%;
   position: relative;
 }
+.project {
+  background-color: slategray;
+  text-align: center;
+  position: relative;
+}
 .project-header {
  display: flex;
  text-align: center;
  font-size: 30px;
- background-color: slategray;
 }
 .gallery {
   margin: 5px;
