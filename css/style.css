@@ -20,8 +20,6 @@ p {
 }
 .project {
   background-color: slategray;
-  text-align: center;
-  position: relative;
 }
 .project-header {
  display: flex;
