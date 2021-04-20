@@ -21,11 +21,6 @@ p {
 .project {
   background-color: slategray;
 }
-.project-header {
- display: flex;
- text-align: center;
- font-size: 30px;
-}
 .gallery {
   margin: 5px;
   border: 1px solid #ccc;
