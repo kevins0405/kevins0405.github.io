@@ -18,6 +18,9 @@ p {
   width: 100%;
   position: relative;
 }
+.project {
+  background-color: slategray;
+}
 h2 {
  display: flex;
  justify-content: center;
