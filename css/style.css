@@ -21,7 +21,7 @@ p {
 .project {
   color: slategray;
 }
-h1 {
+h2 {
  display: flex;
  text-align: center;
  font-size: 30px;
