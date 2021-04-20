@@ -1,7 +1,6 @@
 body{
   margin: 0px;
 }
-
 h1 {
   position: relative;
   top: 50px;
@@ -16,17 +15,17 @@ p {
   text-align: center;
   background-color: mediumseagreen;
   color: whitesmoke;
-  height: 75vh;
+  height: 95vh;
   align-items: center;
   justify-content: center;
   width: 100%;
   position: relative;
 }
-
 h2 {
  display: flex;
  justify-content: center;
  font-size: 30px;
+ font-family: Georgia;
 }
 .project{
   display: grid;
@@ -36,31 +35,34 @@ h2 {
                         'project1 project2 project3 project4';
   background-color:slategray;
   gap: 10px;
+  height: 90vh;
 }
-
 .project > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 0, 0, 0.6);
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 .project-title{grid-area: title;}
 .project1{grid-area: project1;}
 .project2{grid-area: project2;}
 .project3{grid-area: project3;}
 .project4{grid-area: project4;}
 
-/* .gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-} */
-.gallery:hover {
-  border: 1px solid #777;
+.project1:hover {
+  border: 5px solid salmon;
 }
-.gallery img {
+.project2:hover {
+  border:5px solid salmon;
+}
+.project3:hover {
+  border:5px solid salmon;
+}
+.project4:hover {
+  border:5px solid salmon;
+}
+.project img {
   width: 100%;
   height: auto;
 }
