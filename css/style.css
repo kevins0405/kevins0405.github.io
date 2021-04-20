@@ -19,7 +19,12 @@ p {
   position: relative;
 }
 .project {
-  background-color: slategray;
+  color: slategray;
+}
+.project-header {
+ display: flex;
+ text-align: center;
+ font-size: 30px;
 }
 .gallery {
   margin: 5px;
