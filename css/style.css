@@ -141,6 +141,7 @@ color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 30px;
+  height: 70px;
 }
 .media-links {
   display: flex;
@@ -156,6 +157,8 @@ color: white;
   transition: transform 0.3s ease-out;
   text-decoration: none;
   color: whitesmoke;
+  text-indent: 50px;
+  padding-inline-end: 45px;
 }
 .about-me-details:hover {
   transform: translateY(8px);
