@@ -1,4 +1,7 @@
-body{
+html {
+  scroll-behavior: smooth;
+}
+body {
   margin: 0px;
 }
 h1 {
@@ -7,25 +10,27 @@ h1 {
 }
 p {
   position: relative;
-  top: 25px;
+  top: 50px;
 }
 .header {
   font-family: Times New Roman;
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
-  background-color: mediumseagreen;
+  background-image: linear-gradient(#9F2B68, black);
   color: whitesmoke;
   height: 95vh;
   align-items: center;
   justify-content: center;
   width: 100%;
   position: relative;
+  padding-top: 30px;
 }
 h2 {
  display: flex;
  justify-content: center;
  font-size: 30px;
  font-family: Georgia;
+ color:white;
 }
 .project{
   display: grid;
@@ -33,16 +38,19 @@ h2 {
   grid-template-columns: repeat(4, minmax(0, 500px));
   grid-template-areas:  'title title title title'
                         'project1 project2 project3 project4';
-  background-color:slategray;
+  background-image: linear-gradient(black, #00CC99);
   gap: 10px;
   height: 90vh;
+  padding-top: 50px;
+  padding-bottom: 35px;
 }
 .project > div {
-  background-color: rgba(255, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
   text-align: center;
   padding: 20px 0;
   font-size: 35px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:white;
 }
 .project-title{grid-area: title;}
 .project1{grid-area: project1;}
@@ -51,16 +59,16 @@ h2 {
 .project4{grid-area: project4;}
 
 .project1:hover {
-  border: 5px solid salmon;
+  border: 5px solid	#BCD4E6;
 }
 .project2:hover {
-  border:5px solid salmon;
+  border: 5px solid #BCD4E6;
 }
 .project3:hover {
-  border:5px solid salmon;
+  border: 5px solid	#BCD4E6;
 }
 .project4:hover {
-  border:5px solid salmon;
+  border: 5px solid	#BCD4E6;
 }
 .project img {
   width: 100%;
@@ -73,7 +81,7 @@ h2 {
 .nav {
 display: flex;
 font-family: fantasy;
-color: purple;
+color: #9F2B68;
 justify-content: flex-end;
 position: fixed;
 top: 0;
@@ -81,7 +89,7 @@ left: 0;
 width: 100%;
 box-shadow: 0 4px 0 rgba(0, 0, 0, 0.9);
 z-index: 10;
-background-color: purple;
+background-color: #9F2B68;
 padding: 1rem;
 }
 .nav-list {
@@ -108,7 +116,48 @@ padding: 1rem;
 text-decoration: none;
 }
 .nav-list a:hover {
-background: purple;
+background: #9F2B68;
 color: white;
- }
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(#00CC99, #800020)
+}
+.about-me-section-header > h2 {
+  font-size: 35px;
+}
+@media (max-width: 28.75em) {
+  .about-me-section-header > h2 {
+    font-size: 20rem;
+  }
+}
+.about-me-section-header > p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 30px;
+}
+.media-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+.about-me-details {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.about-me-details:hover {
+  transform: translateY(8px);
+}
  
